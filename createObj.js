@@ -1,3 +1,5 @@
+//这个文件是创建js对象的
+
 var obj = new Object();
 obj.name = "zs"; 
 obj.age = 21;
