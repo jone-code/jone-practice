@@ -25,4 +25,6 @@ public interface DeclareDao {
     void updateDeclare(Declare declare);
 
     void deleteById(int id);
+
+    void add(Declare declare);
 }

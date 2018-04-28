@@ -20,4 +20,10 @@ import pojo.ShopMarket;
  */
 public interface ShopMarketDao {
     List<ShopMarket> selectAll();
+
+    void update(ShopMarket market);
+
+    void delete(int id);
+
+    void add(ShopMarket market);
 }
